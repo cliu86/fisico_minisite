@@ -1,0 +1,192 @@
+* {
+  font-family: "Raleway"; }
+
+.active {
+  border: 1px solid #1b1b1b; }
+
+#main-nav {
+  font-family: "Raleway"; }
+  #main-nav div.navbar-collapse {
+    font-weight: bold; }
+
+#banner {
+  min-height: 22em;
+  height: auto;
+  margin-top: 6em;
+  background-color: #13a0e6;
+  color: #fff;
+  font-family: "Raleway";
+  text-align: center; }
+  #banner h1 {
+    font-size: 2.6em; }
+  #banner #sign_up:hover {
+    background-color: #fff; }
+  #banner #btn-fact {
+    background-color: #f2d03b;
+    font-weight: bold; }
+    #banner #btn-fact:hover {
+      background-color: #fff; }
+    @media screen and (max-width: 550px) {
+      #banner #btn-fact {
+        margin-bottom: 2.5em; } }
+
+#description a {
+  background-color: #13a0e6; }
+  #description a:hover {
+    background-color: #1b1b1b; }
+
+#questions_title {
+  height: 5em;
+  background-color: #13a0e6;
+  margin-top: 6em;
+  margin-bottom: 1em;
+  color: #fff;
+  text-align: center; }
+  @media screen and (max-width: 550px) {
+    #questions_title h1 {
+      font-size: 1.8em; } }
+
+/* Featurettes */
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */ }
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem; }
+
+#order_now a {
+  background-color: transparent;
+  border: none; }
+
+#next_step a {
+  width: 50%; }
+
+#myFooter {
+  flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+  background-color: #1b1b1b;
+  color: #fff;
+  padding-top: 30px; }
+  #myFooter .footer-copyright {
+    background-color: #1b1b1b;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center; }
+  #myFooter .row {
+    margin-bottom: 60px; }
+  #myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px; }
+  #myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7; }
+  #myFooter h5 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 30px; }
+  #myFooter h2 a {
+    font-size: 50px;
+    text-align: center;
+    color: #fff; }
+  #myFooter a {
+    color: #d2d1d1;
+    text-decoration: none; }
+    #myFooter a:hover, #myFooter a:focus {
+      text-decoration: none;
+      color: #fff; }
+  #myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px; }
+  #myFooter .social-networks a {
+    font-size: 32px;
+    color: #fff;
+    padding: 10px;
+    transition: 0.2s; }
+    #myFooter .social-networks a:hover {
+      text-decoration: none; }
+  #myFooter .facebook:hover {
+    color: #0077e2; }
+  #myFooter .google:hover {
+    color: #ef1a1a; }
+  #myFooter .twitter:hover {
+    color: #00aced; }
+  #myFooter .btn {
+    color: #1b1b1b;
+    background-color: #f2d03b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+    font-weight: bold; }
+    #myFooter .btn:hover {
+      background-color: #fff; }
+
+@media screen and (max-width: 1200px) {
+  #main-nav {
+    display: none; }
+
+  #slide_in_nav {
+    display: block !important;
+    margin-bottom: -5.6em;
+    background-color: #fff; }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s; }
+
+  .overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em; }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.8em;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
+
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1; }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px; }
+
+  #presentation {
+    padding-top: 3em; } }
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px; }
+
+  .overlay .closebtn {
+    font-size: 35px;
+    top: 15px;
+    right: 35px; } }
+@media screen and (max-width: 767px) {
+  #myFooter {
+    text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */
