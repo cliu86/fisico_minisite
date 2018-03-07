@@ -19,7 +19,7 @@
                             <li><a href="#">Reviews</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-2">
                         <h5>Support</h5>
                         <ul>
                             <li><a href="#">FAQ</a></li>
@@ -27,7 +27,7 @@
                             <li><a href="#">Forums</a></li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <div class="social-networks">
                             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
                             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>

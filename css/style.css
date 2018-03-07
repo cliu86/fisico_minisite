@@ -2,7 +2,7 @@
   font-family: "Raleway"; }
 
 .active {
-  border: 1px solid #1b1b1b; }
+  border: 1px groove #1b1b1b; }
 
 #main-nav {
   font-family: "Raleway"; }
@@ -12,20 +12,24 @@
 #banner {
   min-height: 22em;
   height: auto;
-  margin-top: 6em;
+  margin-top: 5em;
   background-color: #13a0e6;
   color: #fff;
   font-family: "Raleway";
   text-align: center; }
   #banner h1 {
     font-size: 2.6em; }
-  #banner #sign_up:hover {
-    background-color: #fff; }
+  #banner #sign_up {
+    font-weight: 500; }
+    #banner #sign_up:hover {
+      background-color: #fff; }
   #banner #btn-fact {
     background-color: #f2d03b;
-    font-weight: bold; }
+    font-weight: bold;
+    color: #353535; }
     #banner #btn-fact:hover {
-      background-color: #fff; }
+      background-color: #1b1b1b;
+      color: #fff; }
     @media screen and (max-width: 550px) {
       #banner #btn-fact {
         margin-bottom: 2.5em; } }
@@ -36,12 +40,14 @@
     background-color: #1b1b1b; }
 
 #questions_title {
-  height: 5em;
+  height: 3.9em;
   background-color: #13a0e6;
   margin-top: 6em;
   margin-bottom: 1em;
   color: #fff;
   text-align: center; }
+  #questions_title h1 {
+    font-size: 2em; }
   @media screen and (max-width: 550px) {
     #questions_title h1 {
       font-size: 1.8em; } }
@@ -62,7 +68,12 @@
   border: none; }
 
 #next_step a {
-  width: 50%; }
+  width: 45%; }
+
+#accordion .btn-link {
+  text-decoration: none;
+  color: #13a0e6;
+  font-weight: bold; }
 
 #myFooter {
   flex: 0 0 auto;
@@ -115,7 +126,7 @@
   #myFooter .google:hover {
     color: #ef1a1a; }
   #myFooter .twitter:hover {
-    color: #00aced; }
+    color: #f2d03b; }
   #myFooter .btn {
     color: #1b1b1b;
     background-color: #f2d03b;
@@ -138,6 +149,8 @@
     display: block !important;
     margin-bottom: -5.6em;
     background-color: #fff; }
+    #slide_in_nav .d-flex a img {
+      width: 16em; }
 
   .overlay {
     height: 100%;
@@ -146,7 +159,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: #1b1b1b;
     background-color: rgba(0, 0, 0, 0.9);
     overflow-x: hidden;
     transition: 0.5s; }
@@ -161,7 +174,7 @@
   .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 1.8em;
+    font-size: 2.2em;
     color: #818181;
     display: block;
     transition: 0.3s; }
@@ -173,20 +186,119 @@
     position: absolute;
     top: 20px;
     right: 45px;
-    font-size: 60px; }
+    font-size: 4em; }
 
   #presentation {
-    padding-top: 3em; } }
-@media screen and (max-height: 450px) {
+    padding-top: 3em; }
+
+  #slide_in_nav {
+    margin-top: 0; }
+    #slide_in_nav .d-flex a img {
+      width: 14em;
+      margin-top: 0.5em;
+      margin-left: -1em; }
+
+  #sign_up {
+    width: 20%; }
+
+  #sign_up_input {
+    width: 50%; } }
+@media screen and (max-width: 768px) {
+  .overlay-content {
+    position: relative;
+    top: 14%;
+    width: 100%;
+    text-align: center;
+    margin-top: 2em; }
+
   .overlay a {
-    font-size: 20px; }
+    padding: 8px;
+    text-decoration: none;
+    font-size: 2.65em;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
+
+  #myFooter {
+    text-align: center; }
+
+  #slide_in_nav {
+    margin-top: 0; }
+    #slide_in_nav .d-flex a img {
+      width: 13em;
+      margin-top: 0.43em;
+      margin-left: -1em; }
+
+  #sign_up {
+    width: 35%; }
+
+  #banner h1 {
+    font-size: 1.8em; }
+  #banner h4 {
+    font-size: 1.3em; }
+
+  #features {
+    margin-top: 3em; }
+    #features .featurette {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #features .featurette h2 {
+        font-size: 1.5em; }
+      #features .featurette p {
+        font-size: 1em; }
+      #features .featurette div:nth-child(2) {
+        padding-top: 2em; }
+
+  #questions_title {
+    height: 4em; }
+    #questions_title h1 {
+      font-size: 2em; }
+
+  #presentation .presentation-page-top-video {
+    padding-top: 1.5em; } }
+@media screen and (max-width: 450px) {
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
 
   .overlay .closebtn {
     font-size: 35px;
     top: 15px;
-    right: 35px; } }
-@media screen and (max-width: 767px) {
-  #myFooter {
-    text-align: center; } }
+    right: 35px; }
+
+  #sign_up {
+    width: 100%; }
+
+  #questions_title h1 {
+    font-size: 1.6em; }
+
+  #slide_in_nav {
+    margin-top: 0; }
+    #slide_in_nav .d-flex a img {
+      width: 11em;
+      margin-top: 0.71em;
+      margin-left: -1.3em; }
+
+  #questions_title {
+    height: 3em; }
+    #questions_title h1 {
+      font-size: 1.4em; }
+
+  #contact h4 {
+    font-size: 1.2em; }
+
+  #policy h2 {
+    font-size: 1.5em; }
+
+  #product-info h2 {
+    font-size: 1.6em; }
+
+  #accordion .btn-link {
+    font-size: 0.76em; } }
 
 /*# sourceMappingURL=style.css.map */

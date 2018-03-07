@@ -8,12 +8,12 @@
         <!-- Nav -->
         <?php require_once('_nav.php');  ?>
 
-        <!-- Contact -->  
+        <!-- Policy Title -->  
         <div id="questions_title">
-           <h1 class="mx-auto my-auto pt-3">Policy:</h1>
+           <h1 class="mx-auto my-auto pt-2">Policy:</h1>
        </div>
-         <!-- Contact content-->  
-        <div class="container">
+         <!-- Policy content-->  
+        <div class="container" id="policy">
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="pt-3 pb-1">Arthrozene - The Next Level In Natural Joint Health</h2>

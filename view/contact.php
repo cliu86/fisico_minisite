@@ -10,12 +10,13 @@
 
         <!-- Contact -->  
         <div id="questions_title">
-           <h1 class="mx-auto my-auto pt-3">Contact:</h1>
+           <h1 class="mx-auto my-auto pt-2">Contact:</h1>
        </div>
          <!-- Contact content-->  
-        <div class="container">
+        <div class="container" id="contact">
             <div class="col-md-12 order-md-1">
                 <h4 class="mb-3">For inquiries and customer support, please use the form below to send us a message:</h4>
+                <hr>
                 <form class="needs-validation" method="post">
                     <div class="row">
                         <div class="col-md-6 mb-3">

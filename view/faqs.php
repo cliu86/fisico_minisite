@@ -10,16 +10,16 @@
        
        <!-- Questions -->
        <div id="questions_title">
-           <h1 class="mx-auto my-auto pt-3">Frequently Asked Questions</h1>
+           <h1 class="mx-auto my-auto pt-2">Frequently Asked Questions</h1>
        </div>
 
         <div id="questions" class="container mt-3">
-            <h2>Product FAQs</h2>
-            <div id="accordion">
+            <h4 class="ml-1">Product FAQs</h4>
+            <div id="accordion" class="my-4">
                 <div class="card">
                     <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
-                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="btn btn-link pl-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         How does Arthrozene work?
                         </button>
                     </h5>
@@ -33,8 +33,8 @@
                 <div class="card">
                     <div class="card-header" id="headingTwo">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        What are the ingredients in Arthrozene?
+                        <button class="btn btn-link collapsed pl-0" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What are the ingredients in Arthrozene?
                         </button>
                     </h5>
                     </div>
@@ -47,7 +47,7 @@
                 <div class="card">
                     <div class="card-header" id="headingThree">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link collapsed pl-0" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         What is your guarantee?
                         </button>
                     </h5>
@@ -62,7 +62,7 @@
                  <div class="card">
                     <div class="card-header" id="headingFour">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <button class="btn btn-link collapsed pl-0" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         How do I take Arthrozene?
                         </button>
                     </h5>
@@ -77,7 +77,7 @@
                  <div class="card">
                     <div class="card-header" id="headingFive">
                     <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <button class="btn btn-link collapsed pl-0" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         How do I buy Arthrozene?
                         </button>
                     </h5>

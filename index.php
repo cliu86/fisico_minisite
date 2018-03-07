@@ -30,7 +30,7 @@
             <div class="container">
                 <div class="navbar-collapse collapse nav-content order-2">
                     <ul class="nav navbar-nav">
-                        <li id="index_link" class="nav-item">
+                        <li id="index_link" class="nav-item active">
                             <a class="nav-link" href="index">HOME</a>
                         </li>
                         <li id="product_link" class="nav-item">
@@ -42,7 +42,6 @@
                         <li id="presentation_link" class="nav-item">
                             <a class="nav-link" href="view/presentation">PRESENTATION</a>
                         </li>
-                       
                     </ul>
                 </div>
                 <ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2" >
@@ -65,7 +64,6 @@
                         <li id="advertorial_link" class="nav-item">
                             <a class="nav-link" href="view/advertorial">ADVERTORIAL</a>
                         </li>
-                        
                     </ul>
                 </div>
             </div>
@@ -73,7 +71,7 @@
 
         <!-- Nav for smaller screen-->
         <div id="slide_in_nav" class="fixed-top" style="display:none">
-           <div id="myNav" class="overlay">
+           <div id="myNav" class="overlay" >
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
               <div class="overlay-content">
                   <a href="index">HOME</a>
@@ -86,7 +84,7 @@
                   <a href="view/advertorial">ADVERTORIAL</a>
               </div>
            </div>
-           <div class="d-flex justify-content-around align-content-center mt-2">
+           <div class="d-flex justify-content-around align-content-center">
              <a class="nav-link" href="index"><img src="images/logo.png"></a>
              <span style="font-size:30px;cursor:pointer" class="pt-3" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></span>
            </div>
@@ -95,47 +93,92 @@
 
 
         <!-- Banner -->  
-        <div class="jumbotron" id="banner">
-            <h1>Next-Generation Joint Pain Solution</h1>
-            <h4>With 3 potent ingredients that soothe discomfort, eliminate stiffness, while improving flexibility and mobility.</h4>
-            <hr class="my-4" style="color:white">
-            <p>Stay in touch for special offers and discounts. Learn about natural health supplements and practices by joining our Email list.</p>
-            <form class="form-inline justify-content-center">
-              <label class="sr-only" for="yourEmail">Email</label>
-              <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                <div class="input-group-addon mt-2 mr-1"></div>
-                <input type="text" class="form-control" placeholder="Your Email">
-              </div>
-              <button id="sign_up" type="button" class="btn btn-warning my-2 my-sm-0"><b>Sign Up</b></button>
-            </form>
+        <div id="banner" >
+            <!-- Start #product-info -->
+            <div id="product-info" class="pt-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5 col-xs-12 d-flex flex-column justify-content-center pt-2">
+                            <img class="img-fluid" src="images/arthrozene_3fronts.png"/>			
+                        </div>
+                        <div class="col-sm-7 col-xs-12 d-flex flex-column justify-content-center">
+                            <h2>Next-Generation Joint Pain Solution</h2>
+                            <p>Arthrozene is a 3-step solution that attacks joint pain and stiffness at their root. Its clinically tested ingredients decrease 
+                                inflammation<sup>&dagger;</sup>, slow down cartilage degradation<sup>&dagger;</sup>, and increase lubrication<sup>&dagger;</sup>. 
+                                This helps increase flexibility and pain-free movement so you can get back to the daily activities you enjoy<sup>&dagger;</sup>.
+                            </p>
+                            <button id="btn-fact" class="btn" type="button" data-toggle="collapse" data-target="#product-info-collapse-content" 
+                                aria-expanded="false" aria-controls="product-info-collapse-content">
+                                Click for Supplement Facts
+                            </button>
+                            <div id="product-info-collapse-content" class="collapse">
+                                <p class="mt-3">Serving Size: 1 Capsule<br>Servings Per Container: 30</p>
+                                <hr>
+                                <div class="product-info-table">
+                                    <table>
+                                        <tbody>
+                                            <tr class="amount">
+                                                <td>Amount Per Serving</td>
+                                                <td class="amount-per-serving-td">% DV</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>AprèsFlex® - Boswellia Serrata Extract</td>
+                                                <td>100 mg</td>
+                                                <td>*</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mobilee® Natural Chicken Comb Extract (standardized to 60% hyaluronic acid, 5% collagen type II and 10% glucosaminoglycans)</td>
+                                                <td>80 mg</td>
+                                                <td>*</td>
+                                            </tr>
+                                            <tr>
+                                                <td>B-2Cool® Native Collagen type II (chicken sternum)</span></td>
+                                                <td>40 mg</td>
+                                                <td>*</td>
+                                            </tr>                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p><strong>* Daily Value (DV) Not Established</strong></p>	
+                                <p><strong>Other ingredients:</strong> Hydroxypropyl methylcellulose (capsule), cellulose, magnesium stearate (vegetable source), silicon dioxide.</p>	
+                                <p>AprèsFlex® is a registered trademark of Laila Nutraceuticals. U.S. Patent # 8,551,496 and other patents pending.</p>	
+                                <p>Mobilee® and B-2Cool® are licensed trademarks of BIOIBERICA, SA.</p>		
+                            </div>
+                        </div>	
+                    </div>			
+                </div>	
+            </div>
+            <!-- End #product-info -->
         </div>
+        
 
         <!-- Product description -->
-        <div class="container mb-5" id="description">
+        <div class="container my-5" id="description">
             <div class="row">
-                <div class="card col-md-4  col-sm-12 border-0">
+                <div class="card col-md-4  col-sm-12 border-0 mb-5">
                     <img class="card-img-top" src="images/potent-ingredients.jpg" alt="Card image">
                     <div class="card-body">
-                      <h4 class="card-title">Premium Ingredients</h4>
-                      <p class="card-text">B-2Cool® type II collagen, Mobilee® hyaluronic acid, and ApresFlex® potent joint health triad that  triad that attacks the problem at its root.</p>
+                      <h4 class="card-title text-center">Premium Ingredients</h4>
+                      <p class="card-text  text-center">B-2Cool® type II collagen, Mobilee® hyaluronic acid, and ApresFlex® potent joint health triad that  triad that attacks the problem at its root.</p>
                       <a href="#" class="btn btn-primary btn-block">Learn More</a>
                     </div>
                 </div>
     
-                <div class="card col-md-4 col-sm-12 border-0">
+                <div class="card col-md-4 col-sm-12 border-0 mb-5">
                     <img class="card-img-top" src="images/research-and-clinical-trials.jpg" alt="Card image">
                     <div class="card-body">
-                      <h4 class="card-title">Research/Clinical Trials</h4>
-                      <p class="card-text">Arthrozene's trademarked ingredients are backed by clinical research and human trials. To see all data, safety, and approval studies.</p>
+                      <h4 class="card-title text-center">Research/Clinical Trials</h4>
+                      <p class="card-text  text-center">Arthrozene's trademarked ingredients are backed by clinical research and human trials. To see all data, safety, and approval studies.</p>
                       <a href="#" class="btn btn-primary btn-block">Learn More</a>
                     </div>
                 </div>
     
-                <div class="card col-md-4 col-sm-12  border-0">
+                <div class="card col-md-4 col-sm-12  border-0 mb-5">
                     <img class="card-img-top" src="images/az-card.jpg" alt="Card image">
                     <div class="card-body">
-                      <h4 class="card-title">Try Today - RISK-FREE</h4>
-                      <p class="card-text">Arthrozene has a a build-up analgesic effect in the body and provides pain relief in as little as 5 days. Special offers are available for customers.</p>
+                      <h4 class="card-title text-center">Try Today- Risk Free</h4>
+                      <p class="card-text text-center">Arthrozene has a a build-up analgesic effect and provides pain relief in as little as 5 days. Special offers are available for customers.</p>
                       <a href="#" class="btn btn-primary btn-block">Learn More</a>
                     </div>
                 </div>

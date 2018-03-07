@@ -9,7 +9,7 @@
         <?php require_once('_nav.php');  ?>
          <!--Presentation content-->  
         <div id="presentation" class="container mt-5 pt-5">
-            <div class="presentation-page-top-video text-center mx-auto">
+            <div class="presentation-page-top-video text-center mt-2">
                 <div class="embed-responsive embed-responsive-16by9" style="margin:-3.2em 0 0 0">
                     <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/87230364?title=0&amp;byline=0&amp;portrait=0rel=0&autoplay=1" allowfullscreen ></iframe>
                 </div>
